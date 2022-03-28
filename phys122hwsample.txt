@@ -1,0 +1,60 @@
+Mon Mar 28, 2022 	Assignment Lec RQ 01 	due by 8am
+Wed Mar 30, 2022 	Assignment Lec RQ 02 	due by 8am
+Wed Mar 30, 2022  Assignment Tut/Lab Introductory Video 	due by 11:59pm
+Fri Apr 1, 2022 	Assignment Lec RQ 03 	due by 8am
+Fri Apr 1, 2022  Assignment Pre-quarter lab survey 	due by 11:59pm
+Sun Apr 3, 2022 	Assignment Tut 1 Pretest: Math Survey 	due by 11:59pm
+Mon Apr 4, 2022 	Assignment Lec RQ 04 	due by 8am
+Tue Apr 5, 2022 	Assignment Lec HW 01 	due by 11:59pm
+Wed Apr 6, 2022 	Assignment Lec RQ 05 	due by 8am
+Wed Apr 6, 2022   Assignment Teamwork agreement 	 due by 11:59pm
+Fri Apr 8, 2022 	Assignment Lec RQ 06 	due by 8am
+Sun Apr 10, 2022 	Assignment Tut 2 Pretest: Electric Fields and Flux 	due by 11:59pm
+Mon Apr 11, 2022 	Assignment Lec RQ 07 	due by 8am
+Mon Apr 11, 2022  Assignment Tut 1 HW: Charge 	due by 11:59pm
+Tue Apr 12, 2022 	Assignment Lec HW 02 	due by 11:59pm
+Wed Apr 13, 2022 	Assignment Lec RQ 08 	due by 8am
+Fri Apr 15, 2022 	Assignment Lec RQ 09 	due by 8am
+Sun Apr 17, 2022 	Assignment Tut 3 Pretest: Gauss Law 	due by 11:59pm
+Mon Apr 18, 2022 	Assignment Lec RQ 10 	due by 8am
+Mon Apr 18, 2022  Assignment Tut 2 HW: Electric Fields and Flux 	due by 11:59pm
+Tue Apr 19, 2022 	Assignment Lec HW 03 	due by 11:59pm
+Wed Apr 20, 2022 	Assignment Lec RQ 11 	due by 8am
+Fri Apr 22, 2022 	Assignment Lec RQ 12 	due by 8am
+Sun Apr 24, 2022 	Assignment Tut 4 Pretest: Electric Potential Difference 	due by 11:59pm
+Mon Apr 25, 2022 	Assignment Lec RQ 13 	due by 8am
+Mon Apr 25, 2022  Assignment Tut 3 HW: Gauss' Law 	due by 11:59pm
+Tue Apr 26, 2022 	Assignment Lec HW 04 	due by 11:59pm
+Wed Apr 27, 2022 	Assignment Lec RQ 14 	due by 8am
+Wed Apr 27, 2022  Assignment Lab A3 - report 	due by 11:59pm
+Fri Apr 29, 2022 	Assignment Lec RQ 15 	due by 8am
+Sun May 1, 2022 	Assignment Tut 5 Pretest: Electric properties of conductors 	due by 11:59pm
+Mon May 2, 2022 	Assignment Lec RQ 16 	due by 8am
+Mon May 2, 2022  Assignment Tut 4 HW: Electric Potential Difference 	due by 11:59pm
+Tue May 3, 2022 	Assignment Lec HW 05 	due by 11:59pm
+Wed May 4, 2022 	Assignment Lec RQ 17 	due by 8am
+Fri May 6, 2022 	Assignment Lec RQ 18 	due by 8am
+Fri May 6, 2022  Assignment Group Reflections 	due by 11:59pm
+Sun May 8, 2022 	Assignment Tut 6 Pretest: Magnetic interactions 	due by 11:59pm
+Mon May 9, 2022 	Assignment Lec RQ 19 	due by 8am
+Mon May 9, 2022  Assignment Tut 5 HW: Electric Properties of Conductors 	due by 11:59pm
+Tue May 10, 2022 	Assignment Lec HW 06 	due by 11:59pm
+Wed May 11, 2022 	Assignment Lec RQ 20 	due by 8am
+Fri May 13, 2022 	Assignment Lec RQ 21 	due by 8am
+Sun May 15, 2022 	Assignment Tut 7 Pretest: Ampere's law 	due by 11:59pm
+Mon May 16, 2022 	Assignment Lec RQ 22 	due by 8am
+Mon May 16, 2022  Assignment Tut 6 HW: Magnetic Interactions 	due by 11:59pm
+Tue May 17, 2022 	Assignment Lec HW 07 	due by 11:59pm
+Wed May 18, 2022 	Assignment Lec RQ 23 	due by 8am
+Fri May 20, 2022 	Assignment Lec RQ 24 	due by 8am
+Sun May 22, 2022 	Assignment Tut 8 Pretest: A Model for Circuits 	due by 11:59pm
+Mon May 23, 2022 	Assignment Lec RQ 25 	due by 8am
+Mon May 23, 2022  Assignment Tut 7 HW: Ampere's Law 	due by 11:59pm
+Tue May 24, 2022 	Assignment Lec HW 08 	due by 11:59pm
+Wed May 25, 2022 	Assignment Lec RQ 26 	due by 8am
+Fri May 27, 2022 	Assignment Lec RQ 27 	due by 8am
+Tue May 31, 2022 	Assignment Lec HW 09 	due by 11:59pm
+Tue May 31, 2022  Assignment Tut 8 HW: A Model for Circuits 	due by 11:59pm
+Wed Jun 1, 2022 	Assignment Lec RQ 28 	due by 8am
+Fri Jun 3, 2022 	Assignment Lec RQ 29 	due by 8am
+Tue Jun 7, 2022 	Assignment Lec HW 10 	due by 11:59pm

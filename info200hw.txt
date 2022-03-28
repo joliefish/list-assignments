@@ -1,0 +1,52 @@
+Tue Mar 29, 2022 	Assignment Activity - Power 	due by 12:30pm
+Wed Mar 30, 2022 	Assignment Lab 1 - Meet your team 	due by 1pm
+Thu Mar 31, 2022 	Assignment Reading - Peril 	due by 10:30am
+Thu Mar 31, 2022  Assignment Reading - Power 	due by 10:30am
+Thu Mar 31, 2022  Assignment Syllabus Feedback 	due by 10:30am
+Thu Mar 31, 2022  Assignment Activity - Peril 	due by 12:30pm
+Tue Apr 5, 2022 	Assignment Reading - Data, Information, Knowledge 	due by 10:30am
+Tue Apr 5, 2022   Assignment Activity - Data, Information, Knowledge 	due by 12:30pm
+Wed Apr 6, 2022 	Assignment Lab 2 - Functionality 	due by 1pm
+Thu Apr 7, 2022 	Assignment Reading - Data, Encoding, Metadata 	due by 10:30am
+Thu Apr 7, 2022  Assignment Activity - Data, Encoding, Metadata 	due by 12:30pm
+Tue Apr 12, 2022 	Assignment Reading - Information Technology 	due by 10:30am
+Tue Apr 12, 2022  Assignment Activity - Information Technology 	due by 12:30pm
+Wed Apr 13, 2022 	Assignment Lab 3 - Architecture 	due by 1pm
+Thu Apr 14, 2022  	Assignment Reading - Information Systems 	due by 10:30am
+Thu Apr 14, 2022  Assignment Activity - Information Systems 	due by 12:30pm
+Tue Apr 19, 2022  	Assignment Reading - Seeking 	due by 10:30am
+Tue Apr 19, 2022   Assignment Activity - Seeking 	due by 12:30pm
+Wed Apr 20, 2022 	Assignment Lab 4 - Policy 	due by 1pm
+Thu Apr 21, 2022 	Assignment Reading - Hiding 	due by 10:30am
+Thu Apr 21, 2022  Assignment Activity - Hiding 	due by 12:30pm
+Tue Apr 26, 2022 	Assignment Reading - Managing 	due by 10:30am
+Tue Apr 26, 2022  Assignment Activity - Managing 	due by 12:30pm
+Wed Apr 27, 2022 	Assignment Lab 5 - Benefits and Harms 	due by 1pm
+Thu Apr 28, 2022 	Assignment Reading - Regulating 	due by 10:30am
+Thu Apr 28, 2022  Assignment Activity - Regulating 	due by 12:30pm
+Tue May 3, 2022 	Assignment Analyze a Design 	due by 10:30am
+Tue May 3, 2022  Assignment Reading - Designing 	due by 10:30am
+Tue May 3, 2022  Assignment Activity - Designing 	due by 12:30pm
+Wed May 4, 2022 	Assignment Lab 6 - Ideation 	due by 1pm
+Thu May 5, 2022 	Assignment Reading - Social 	due by 10:30am
+Thu May 5, 2022  Assignment Activity - Social 	due by 12:30pm
+Tue May 10, 2022 	Assignment Reading - Science 	due by 10:30am
+Tue May 10, 2022   Assignment Activity - Science 	due by 12:30pm
+Wed May 11, 2022 	Assignment Lab 7 - Prototyping 	due by 1pm
+Thu May 12, 2022 	Assignment Reading - Automation 	due by 10:30am
+Thu May 12, 2022  Assignment Activity - Automation 	due by 12:30pm
+Tue May 17, 2022 	Assignment Reading - Health 	due by 10:30am
+Tue May 17, 2022  Assignment Activity - Health 	due by 12:30pm
+Wed May 18, 2022 	Assignment Lab 8 - Evaluation 	due by 1pm
+Thu May 19, 2022 	Assignment Reading - Democracy 	due by 10:30am
+Thu May 19, 2022   Assignment Activity - Democracy 	due by 12:30pm
+Tue May 24, 2022 	Assignment Reading - Sustainability 	due by 10:30am
+Tue May 24, 2022   Assignment Activity - Sustainability 	due by 12:30pm
+Wed May 25, 2022  	Assignment Lab 9 - Pitch 	due by 1pm
+Thu May 26, 2022 	Assignment Reading - Industry 	due by 10:30am
+Thu May 26, 2022   Assignment Activity - Industry 	due by 12:30pm
+Mon May 30, 2022 	Assignment Communicate a Design 	due by 9am
+Tue May 31, 2022 	Assignment Activity - Presentations 1 	due by 12:30pm
+Wed Jun 1, 2022 	Assignment Lab 10 - Polish 	due by 1pm
+Thu Jun 2, 2022 	Assignment Activity - Presentations 2 	due by 12:30pm
+Fri Jun 3, 2022 	Assignment Envision a Design 	due by 9am
