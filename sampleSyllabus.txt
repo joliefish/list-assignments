@@ -1,8 +1,0 @@
-Week 1Wed, Sep 29   Syllabus,  § 12.1:  3D Coordinate
-Fri, Oct 01   § 12.2: Vectors
-Week 2Mon, Oct 04   § 12.3: Dot Product
-Wed, Oct 06   § 12.4: Cross Product
-Fri, Oct 08   § 12.5: Equations of Lines and Planes
-Week 3Mon, Oct 11   § 12.5: Equations of Lines and Planes
-Wed, Oct 13   § 12.6: Cylinders and Quadric Surfaces
-Fri, Oct 15   § 13.1: Vector Functions and Space Curves
