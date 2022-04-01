@@ -38,7 +38,7 @@ with open('info200hw.txt', 'r') as input:
         for x in range(len(lineList)):
             try:
                 # move time to beginning of tuple
-                if re.match(r"\d(am|pm)", lineList[x]):
+                if re.search(r"\d[ap]m", lineList[x]):
                     lineList.insert(0, lineList.pop(x).strip())
                     lineList[0] = ' '.join((lineList[0], lineList.pop(1)))
             except IndexError:
