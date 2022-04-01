@@ -16,7 +16,7 @@ header = ['date', 'name', 'time']
 combine = 1
 
 # open the file in the write mode
-with open('info200hw.txt', 'r') as input:
+with open('diSyllabus.txt', 'r') as input:
 
     #with open('sampleOutput.csv', 'w') as output:
         # create the csv writer
@@ -36,11 +36,24 @@ with open('info200hw.txt', 'r') as input:
         lineList = re.split('\\s{2,}|due|\\t', line.strip())
 
         for x in range(len(lineList)):
+            # move time to beginning of tuple
             try:
                 # move time to beginning of tuple
-                if re.search(r"\d[ap]m", lineList[x]):
-                    lineList.insert(0, lineList.pop(x).strip())
-                    lineList[0] = ' '.join((lineList[0], lineList.pop(1)))
+                if 'am' in lineList[x] or 'pm' in lineList[x]:
+                    if 'am' in lineList[x]:
+                        index = lineList[x].index('am')
+                    if 'pm' in lineList[x]:
+                        index = lineList[x].index('pm')
+                    charBefore = lineList[x][index - 1]
+                    isInt = False
+                    for y in range(10):
+                        if charBefore == str(y):
+                            isInt = True
+                            break
+                    if isInt:
+                        lineList.insert(0, lineList.pop(x).strip())
+                        # join time and date into one index in array
+                        lineList[0] = ' '.join((lineList[0], lineList.pop(1)))
             except IndexError:
                 print("ERROR, NEXT")
 
