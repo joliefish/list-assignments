@@ -5,11 +5,14 @@ import dateutil.parser as dparser
 from dateutil.parser import ParserError
 import re
 
-# number of lines to combine
-combine = 1
+def convert(input):
+    output = ""
 
-# open the given file in read mode
-with open('info200hw.txt', 'r') as input:
+    # number of lines to combine
+    combine = 1
+
+    # open the given file in read mode
+    # with open(input, 'r') as input:
     for line in input:
         # combine given number of lines
         for x in range(combine - 1):
@@ -31,10 +34,11 @@ with open('info200hw.txt', 'r') as input:
             if dt == None:
                 try:
                     dt, tokens = dparser.parse(item, fuzzy_with_tokens=True)
-                    print(dt.strftime('%m-%d-%Y %H:%M'), end = ' ')
+                    output += dt.strftime('%m-%d-%Y %H:%M')
                 except ParserError:
                     pass
             else:
                 # removes unwanted words
-                print(item.replace('Assignment ',''), end = '')
-        print('')
+                output += item.replace('Assignment ','')
+        output += '\n'
+    return output
