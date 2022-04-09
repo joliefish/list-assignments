@@ -5,7 +5,7 @@ import dateutil.parser as dparser
 from dateutil.parser import ParserError
 import re
 
-def convert(input):
+def convert(input, addons):
     output = ""
 
     # number of lines to combine
@@ -41,6 +41,6 @@ def convert(input):
                 # removes unwanted words
                 output += item.replace('Assignment ','')
 
-        output += '\n'
+        output += ' ' + addons + '\n'
 
     return output
