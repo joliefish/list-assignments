@@ -30,13 +30,14 @@
 
     <h3>Input:</h3>
     <form method="POST">
-        <textarea name="input" cols="100" rows="18"></textarea>
-        <input type="text" name = "addons" cols="100"></input>
-        <input type="submit">
+        <textarea name="input" cols="100" rows="4"></textarea><br><br>
+        <label for="addons"><b>Addons:</b></label><br>
+        <input type="text" name = "addons"></input><br><br>
+        <input type="submit" value="Convert!">
     </form>
     <h3>Output:</h3>
     <!-- Indenting is weird so that ouput can have nice format -->
-    <textarea name="output" cols="100" rows="18">{% for para in text %}{{para}}
+    <textarea name="output" cols="100" rows="4">{% for para in text %}{{para}}
 {% endfor %}</textarea>
 </body>
 </html>
