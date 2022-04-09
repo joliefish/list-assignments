@@ -2,10 +2,40 @@
 <body>
     <title>List Assignments</title>
     <h1>List Assignments</h1>
+
+    Welcome to List Assignments! <br>
+    <br>
+    List Assignments is a helper that takes in a list of assignments, as plain text from a syllabus, and outputs a
+    formatted list <br> of assignments that can be pasted into Todoist, the widely popular To-Do list app, to be be
+    added as tasks with correct <br> due date, due time and assignment name. <br>
+    <br>
+    Formatting the input: <br>
+    <ul>
+        <li>On each line, make sure you have the date and time of the assignment due date somewhere on the line.</li>
+            <ul>
+                <li>Good formatting: 2020 February 12    Assignment due by 12pm</li>
+                <li>Bad formatting: Assignment due by 12pm</li>
+            </ul>
+        <li>Separate the date of the assignment with a tab or multiple spaces</li>
+            <ul>
+                <li>Good formatting: 2020 February 12    Assignment due by 12pm</li>
+                <li>Bad formatting: 2020 February 12 Assignment due by 12pm</li>
+            </ul>
+        <li>Try copying assignments from the Course Summary portion in Canvas, make these revisions in a text document,
+            <br> and copy and paste all of that into List Assignments! They copy and paste the output into Todoist, and
+            confirm.</li>
+    </ul>
+
+    Note: submit empty input to clear output
+
     <h3>Input:</h3>
     <form method="POST">
         <textarea name="input" cols="100" rows="18"></textarea>
         <input type="submit">
     </form>
+    <h3>Output:</h3>
+    <!-- Indenting is weird so that ouput can have nice format -->
+    <textarea name="output" cols="100" rows="18">{% for para in text %}{{para}}
+{% endfor %}</textarea>
 </body>
 </html>

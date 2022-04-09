@@ -10,5 +10,7 @@ def template():
 @app.route('/', methods=['POST'])
 def output():
     input = request.form['input']
+    input = input.split('\n')
     processed_text = convert(input)
-    return processed_text
+    processed_text = processed_text.split('\n')
+    return render_template('template.html', text=processed_text)

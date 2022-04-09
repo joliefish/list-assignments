@@ -34,11 +34,13 @@ def convert(input):
             if dt == None:
                 try:
                     dt, tokens = dparser.parse(item, fuzzy_with_tokens=True)
-                    output += dt.strftime('%m-%d-%Y %H:%M')
+                    output += dt.strftime('%m-%d-%Y %H:%M') + ' '
                 except ParserError:
                     pass
             else:
                 # removes unwanted words
                 output += item.replace('Assignment ','')
+
         output += '\n'
+
     return output
