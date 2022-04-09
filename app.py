@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def template():
-    return render_template('template.html')
+    return render_template('index.html')
 
 @app.route('/', methods=['POST'])
 def output():
@@ -14,4 +14,4 @@ def output():
     input = input.split('\n')
     processed_text = convert(input, addons)
     processed_text = processed_text.split('\n')
-    return render_template('template.html', text=processed_text)
+    return render_template('index.html', text=processed_text)
