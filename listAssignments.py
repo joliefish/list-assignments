@@ -4,43 +4,44 @@
 import dateutil.parser as dparser
 from dateutil.parser import ParserError
 import re
+import pandas as pd
 
 def convert(input, addons):
-    output = ""
+    """
+    input - list of assignments (each line with assignment name and due date)
+    addons - str, to add to each assignment
+    """
+    sections = ['date', 'name', 'time']
+    unwanted = ['Assignment']
+    df = pd.DataFrame()
 
-    # number of lines to combine
-    combine = 1
-
-    # open the given file in read mode
-    # with open(input, 'r') as input:
+    # Lines are rows in the DataFrame
     for line in input:
-        # combine given number of lines
-        for x in range(combine - 1):
-            line = (line, next(input))
-            line = '  '.join(line)
+        # Split line at multiple spaces, keyword 'due', or tab
+        line_list = re.split('\\s{2,}|due|\\t', line.strip()) 
+        line_list = [x for x in line_list if x != '']       
+        next_row = pd.DataFrame([line_list])
+        # Adds the row to the DataFrame
+        df = pd.concat([df, next_row])
+    
+    # Renames the columns from indices to sections
+    rename = {key : value for key, value in enumerate(sections)}
+    df = df.rename(columns=rename)
 
-        # split line at multiple spaces, keyword 'due', or tab
-        lineList = re.split('\\s{2,}|due|\\t', line.strip())
+    # Creates column with datetime
+    df['datetime_str'] = df['date'] + df['time']
+    df['datetime'] = df['datetime_str'].apply(dparser.parse, fuzzy_with_tokens=True).str[0]
+    #             output += dt.strftime('%m-%d-%Y %H:%M') + ' '
 
-        # move time to beginning of list
-        for x in range(len(lineList)):
-            if re.search(r"\d[ap]m", lineList[x]):
-                lineList.insert(0, lineList.pop(x).strip())
-                lineList[0] = ' '.join((lineList[0], lineList.pop(1)))
+    # Removes unwanted words from assignment name
+    for word in unwanted:
+        print(word)
+        df['name'] = df['name'].str.replace(word, '').str.strip()
 
-        # prints date, time, and assignment name on the same line in that order
-        dt = None
-        for item in lineList:
-            if dt == None:
-                try:
-                    dt, tokens = dparser.parse(item, fuzzy_with_tokens=True)
-                    output += dt.strftime('%m-%d-%Y %H:%M') + ' '
-                except ParserError:
-                    pass
-            else:
-                # removes unwanted words
-                output += item.replace('Assignment ','')
+    df['output'] = df['datetime'].apply(lambda x: x.strftime('%m-%d-%Y %H:%M')) + ' ' + df['name']
+    print(df)
 
-        output += ' ' + addons + '\n'
+    return df['output'].tolist()
 
-    return output
+with open('test_homeworks\info200hw.txt') as f:
+    print(convert(f.readlines(), ''))
